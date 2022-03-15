@@ -1,0 +1,89 @@
+.quadrado{
+    margin: auto;
+    display: grid;
+    place-items: top;
+    width: 85vh;
+    height: 95vh;
+    border-left: 4px solid black;
+    border-top: 4px solid black;
+    border-radius: 50px;
+    box-shadow: 7px 7px;
+}
+.tela{
+    margin: auto;
+    display: grid;
+    place-items: center;
+    width: 75vh;
+    height: 12vh;
+    border: 4px solid black;
+    border-radius: 50px;
+}
+.fila{
+    text-align: center;
+    padding: 0.25vw;
+    position: relative;
+}
+.botao{
+    cursor: pointer;
+    margin: auto;
+    display: grid;
+    place-items: center;
+    display: inline-block;
+}
+.operacao{
+    cursor: pointer;
+    width: 19vh;
+    height: 10vh;
+    color: white;
+    background-color: rgb(15, 15, 15);
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-radius: 50px;
+    box-shadow: 5px 5px rgb(0, 0, 0);
+}
+.operacao:active{
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 5px 5px rgb(0, 0, 0);
+}
+.numero{
+    width: 12vh;
+    height: 12vh;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    border-radius: 50px;
+    box-shadow: 5px 5px;
+}
+.numero:active{
+    color: white;
+    background-color: black;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    border-radius: 50px;
+    box-shadow: 5px 5px;
+}
+.especial{
+    color: white;
+    margin: auto;
+    display: grid;
+    place-items: center;
+    width: 40vh;
+    height: 12vh;
+    display: inline-block;
+    text-emphasis-color: white;
+    border-left: 1px solid rgb(15, 15, 15);
+    border-top: 1px solid rgb(15, 15, 15);
+    background-color: rgb(15, 15, 15);
+    border-radius: 50px;
+    box-shadow: 5px 5px rgb(0, 0, 0);
+    cursor: pointer;
+}
+.especial:active{
+    color: black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    background-color: white;
+}

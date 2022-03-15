@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Cauculadora</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='style/index.css'>
+</head>
+<body>
+    <div class='quadrado'>
+        <div class='tela' id="txt">
+             <h1 id='texto-tela'></h1>
+        </div>
+        <div class='fila'>
+            <div class='botao operacao' onclick='adicionarOperador("+")'>
+                 <h1>+</h1>
+            </div>
+            <div class='botao operacao' onclick='adicionarOperador("-")'>
+                 <h1>-</h1>
+            </div>
+            <div class='botao operacao' onclick='adicionarOperador("/")'>
+                 <h1>/</h1>
+            </div>
+            <div class='botao operacao' onclick='adicionarOperador("X")'>
+                 <h1>X</h1>
+            </div>
+        </div>
+        <div class='fila'>
+            <div class='botao numero' onclick='adicionarNumero(1)'>
+                 <h1>1</h1>
+            </div>
+            <div class='botao numero' onclick='adicionarNumero(2)'>
+                 <h1>2</h1>
+            </div>
+            <div class='botao numero' onclick='adicionarNumero(3)'>
+                 <h1>3</h1>
+            </div>
+            <div class='botao numero' onclick='adicionarNumero(4)'>
+                 <h1>4</h1>
+            </div>
+        </div>
+        <div class='fila'>
+            <div class='botao numero' onclick='adicionarNumero(5)'>
+                 <h1>5</h1>
+            </div>
+            <div class='botao numero' onclick='adicionarNumero(6)'>
+                 <h1>6</h1>
+            </div>
+            <div class='botao numero' onclick='adicionarNumero(7)'>
+                 <h1>7</h1>
+            </div>
+        </div>
+        <div class='fila' >
+            <div class='botao numero' onclick='adicionarNumero(8)'>
+                 <h1>8</h1>
+            </div>
+            <div class='botao numero' onclick='adicionarNumero(9)'>
+                 <h1>9</h1>
+            </div>
+        </div>
+        <div class='fila' onclick='adicionarNumero(0)'>
+            <div class='botao numero'>
+                 <h1>0</h1>
+            </div>
+        </div>
+        <div class='fila'>
+            <div class='especial' onclick='cancel()'>
+                 <h1>Cancel</h1>
+            </div>
+            <div class='especial' onclick='enter()'>
+                 <h1>Enter</h1>
+            </div>
+        </div>
+    </div>
+    <script src='js/Page.js' type="text/javascript"></script>
+</body>
+</html>
